@@ -1,11 +1,11 @@
-import $ from 'jquery';
 import 'bootstrap';
+
+import createNavbar from './components/Navbar/navbar';
 
 import './index.scss';
 
 const initializeApp = () => {
-  $('body').html('<h2>Mmmmmmm turkey</h2>');
-  console.log('nap time');
+  createNavbar();
 };
 
 initializeApp();
