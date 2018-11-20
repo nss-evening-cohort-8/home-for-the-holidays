@@ -43,7 +43,7 @@ const buildDropdown = (friendsArray) => {
       dropdown += `<div class="dropdown-item get-single" data-dropdown-id=${friend.id}>${friend.name}</div>`;
     });
   } else {
-    dropdown += '<div>You have no friends.</div>';
+    dropdown += '<div class="dropdown-item">You have no friends.</div>';
   }
 
   dropdown += '</div></div>';
